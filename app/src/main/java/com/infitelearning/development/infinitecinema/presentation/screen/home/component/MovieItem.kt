@@ -24,6 +24,6 @@ fun MovieItem(
         contentScale = ContentScale.Crop,
         modifier = modifier
             .fillMaxSize()
-            .clip(shape = MaterialTheme.shapes.medium)
+            .clip(shape = MaterialTheme.shapes.small)
     )
 }
