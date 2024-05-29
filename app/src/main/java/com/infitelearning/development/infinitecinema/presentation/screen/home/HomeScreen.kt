@@ -27,7 +27,7 @@ import androidx.navigation.NavController
 import com.infitelearning.development.infinitecinema.R
 import com.infitelearning.development.infinitecinema.presentation.screen.home.component.MovieItem
 import com.infitelearning.development.infinitecinema.utils.Constants.getImageUrl
-import com.infitelearning.development.infinitecinema.data.remote.response.MovieItemResponse
+import com.infitelearning.development.infinitecinema.data.remote.response.movie.MovieItemResponse
 
 @Composable
 fun HomeScreen(

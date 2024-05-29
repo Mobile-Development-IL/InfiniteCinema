@@ -3,7 +3,7 @@ package com.infitelearning.development.infinitecinema.data.repository
 import com.infitelearning.development.infinitecinema.data.remote.RemoteDataSource
 import com.infitelearning.development.infinitecinema.domain.repository.MovieRepository
 import com.infitelearning.development.infinitecinema.utils.ApiResult
-import com.infitelearning.development.infinitecinema.data.remote.response.MovieItemResponse
+import com.infitelearning.development.infinitecinema.data.remote.response.movie.MovieItemResponse
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow

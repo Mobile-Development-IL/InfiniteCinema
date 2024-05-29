@@ -1,4 +1,4 @@
-package com.infitelearning.development.infinitecinema.data.remote.response
+package com.infitelearning.development.infinitecinema.data.remote.response.movie
 
 import com.google.gson.annotations.SerializedName
 
