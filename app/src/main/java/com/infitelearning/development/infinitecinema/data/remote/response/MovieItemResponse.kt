@@ -1,8 +1,8 @@
-package com.ranosan.wavies.core.data.source.remote.response
+package com.infitelearning.development.infinitecinema.data.remote.response
 
 import com.google.gson.annotations.SerializedName
 
-data class MovieItem(
+data class MovieItemResponse(
 
     @field:SerializedName("id")
     val id: Int,

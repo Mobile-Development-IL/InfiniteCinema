@@ -3,7 +3,7 @@ package com.infitelearning.development.infinitecinema.data.repository
 import com.infitelearning.development.infinitecinema.data.remote.RemoteDataSource
 import com.infitelearning.development.infinitecinema.domain.repository.MovieRepository
 import com.infitelearning.development.infinitecinema.utils.ApiResult
-import com.ranosan.wavies.core.data.source.remote.response.MovieItem
+import com.infitelearning.development.infinitecinema.data.remote.response.MovieItemResponse
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
@@ -16,7 +16,7 @@ class MovieRepositoryImpl @Inject constructor(
     private val remoteDataSource: RemoteDataSource
 ): MovieRepository {
 
-    override fun getTrendingMovies(): Flow<ApiResult<List<MovieItem>>> = flow {
+    override fun getTrendingMovies(): Flow<ApiResult<List<MovieItemResponse>>> = flow {
         emit(ApiResult.Loading())
         try {
             val response = remoteDataSource.getPopularMovies()

@@ -1,10 +1,10 @@
 package com.infitelearning.development.infinitecinema.domain.repository
 
 import com.infitelearning.development.infinitecinema.utils.ApiResult
-import com.ranosan.wavies.core.data.source.remote.response.MovieItem
+import com.infitelearning.development.infinitecinema.data.remote.response.MovieItemResponse
 import kotlinx.coroutines.flow.Flow
 
 interface MovieRepository {
 
-    fun getTrendingMovies(): Flow<ApiResult<List<MovieItem>>>
+    fun getTrendingMovies(): Flow<ApiResult<List<MovieItemResponse>>>
 }

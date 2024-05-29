@@ -1,10 +1,10 @@
 package com.infitelearning.development.infinitecinema.presentation.screen.home
 
-import com.ranosan.wavies.core.data.source.remote.response.MovieItem
+import com.infitelearning.development.infinitecinema.data.remote.response.MovieItemResponse
 
 data class HomeState(
     val isError: String? = null,
     val message: String? = null,
     val isLoading: Boolean = false,
-    val movies: List<MovieItem> = emptyList()
+    val movies: List<MovieItemResponse> = emptyList()
 )

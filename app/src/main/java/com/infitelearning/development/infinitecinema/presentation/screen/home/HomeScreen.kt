@@ -27,7 +27,7 @@ import androidx.navigation.NavController
 import com.infitelearning.development.infinitecinema.R
 import com.infitelearning.development.infinitecinema.presentation.screen.home.component.MovieItem
 import com.infitelearning.development.infinitecinema.utils.Constants.getImageUrl
-import com.ranosan.wavies.core.data.source.remote.response.MovieItem
+import com.infitelearning.development.infinitecinema.data.remote.response.MovieItemResponse
 
 @Composable
 fun HomeScreen(
@@ -49,7 +49,7 @@ fun HomeScreen(
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HomeContent(
-    movies: List<MovieItem>,
+    movies: List<MovieItemResponse>,
     isDarkMode: Boolean,
     isLoading: Boolean,
     modifier: Modifier = Modifier
